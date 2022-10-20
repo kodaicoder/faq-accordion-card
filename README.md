@@ -71,8 +71,8 @@ To see how you can add code snippets, see below:
 
 - [Tailwind Documents](https://tailwindcss.com/docs/) - yah just a documents for telling me how to using Tailwind CSS.
 - [Access to all child with Tailwind CSS](https://stackoverflow.com/questions/67119992/how-to-access-all-the-direct-children-of-a-div-in-tailwindcss) - definitely it has this command on documents of tailwind itself but lacking of use case.
-- [Why not using <details>](https://css-tricks.com/how-to-animate-the-details-element-using-waapi/) - I didn't using `<details>` because it need some time to effort to JavaScript and that not my objective on this project. (need to using only CSS to control accordion)
-- [Custom scroll bar](https://codepen.io/stephenpaton-tech/full/JjRvGmY) - Custom scroll bar for looking good UI experience. (Credit:[Stephen Paton](https://stephenpaton.tech/))
+- [Why not using `<details>`](https://css-tricks.com/how-to-animate-the-details-element-using-waapi/) - I didn't using `<details>` because it need some time to effort to JavaScript and that not my objective on this project. (need to using only CSS to control accordion)
+- [Custom scroll bar](https://codepen.io/stephenpaton-tech/full/JjRvGmY) - Custom scroll bar for looking good UI experience. (Credit: [Stephen Paton](https://stephenpaton.tech/))
 - [Overlap two image on each other](https://www.w3docs.com/snippets/css/how-to-position-one-image-on-top-of-another-in-html-css.html) - this will tell you how to position one image on top of another in HTML/CSS.
 
 ## Author
