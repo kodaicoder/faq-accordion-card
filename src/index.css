@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+:root {
+  --desaturated-blue: #1d1e35;
+  --soft-red: #f47c57;
+  --soft-violet: #af67e9;
+  --soft-blue: #6565e7;
+  --very-dark: #4a4b5e;
+  --dark-grayish: #787887;
+  --light-grayish: #e7e7e9;
+
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+
+
+  color-scheme: light;
+  color: var(--desaturated-blue);
+  background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
+  /*for fall back*/
+  background-color: var(--soft-violet);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*Scrollbar */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--soft-red) white;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f47b56;
+  border-radius: 10px;
+}
+
+input,
+button {
+  /*this disabled tap highlight in mobile*/
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  /*-------------------------------------------------*/
+}
