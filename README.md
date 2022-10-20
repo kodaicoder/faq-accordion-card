@@ -1,4 +1,4 @@
-# Frontend Mentor - FAQ accordion card solution
+# Frontend Mentor - FAQ accordion card solution with Tailwind (No JavaScript + BONUS⭐)
 
 This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -11,10 +11,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -36,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/kodaicoder/faq-accordion-card)
+- Live Site URL: [Add live site URL here](https://faq-accordion-card-eight-azure.vercel.app/)
 
 ## My process
 
@@ -46,63 +44,39 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [TailwindCSS](https://tailwindcss.com/) - CSS framework
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This is my first project with Tailwind CSS , searching hard on the internet and learning a lot of thing in Tailwind CSS , specially Arbitrary values and peer-{modifier} save me a lot of times
+
+and some new HTML tag like <details> but finally I quit using that tag because of lagging of animation that require JavaScript to made it smooth and back to basic using custom checkbox input to doing a trick with a Tailwind CSS
+
+Finally , IT'S A LIVE !!
+
+also I still open for warming suggestion and still have a lot of thing to learning in React , Tailwind , ETC.
+
+BONUS⭐ is a component of FAQ accordion build with <details> that I has try but not success 😉
+
+```
+peer-checked:[&>span]
+is like "input:checked label>span" in vanilla CSS
+that will made nested child can access to peer class too
+```
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Tailwind Documents](https://tailwindcss.com/docs/) - yah just a documents for telling me how to using Tailwind CSS.
+- [Access to all child with Tailwind CSS](https://stackoverflow.com/questions/67119992/how-to-access-all-the-direct-children-of-a-div-in-tailwindcss) - definitely it has this command on documents of tailwind itself but lacking of use case.
+- [Why not using <details>](https://css-tricks.com/how-to-animate-the-details-element-using-waapi/) - I didn't using `<details>` because it need some time to effort to JavaScript and that not my objective on this project. (need to using only CSS to control accordion)
+- [Custom scroll bar](https://codepen.io/stephenpaton-tech/full/JjRvGmY) - Custom scroll bar for looking good UI experience. (Credit:[Stephen Paton](https://stephenpaton.tech/))
+- [Overlap two image on each other](https://www.w3docs.com/snippets/css/how-to-position-one-image-on-top-of-another-in-html-css.html) - this will tell you how to position one image on top of another in HTML/CSS.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Github - [Nutchapon](https://github.com/kodaicoder)
+- Twitter - [@SolanianNut](https://twitter.com/SolanianNut)
+- Frontend Mentor - [@NutchaponMake](https://www.frontendmentor.io/profile/NutchaponMake)
