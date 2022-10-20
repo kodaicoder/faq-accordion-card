@@ -51,13 +51,13 @@ Users should be able to:
 
 This is my first project with Tailwind CSS , searching hard on the internet and learning a lot of thing in Tailwind CSS , specially Arbitrary values and peer-{modifier} save me a lot of times
 
-and some new HTML tag like <details> but finally I quit using that tag because of lagging of animation that require JavaScript to made it smooth and back to basic using custom checkbox input to doing a trick with a Tailwind CSS
+and some new HTML tag like `<details>` but finally I quit using that tag because of lagging of animation that require JavaScript to made it smooth and back to basic using custom checkbox input to doing a trick with a Tailwind CSS
 
 Finally , IT'S A LIVE !!
 
 also I still open for warming suggestion and still have a lot of thing to learning in React , Tailwind , ETC.
 
-BONUS⭐ is a component of FAQ accordion build with <details> that I has try but not success 😉
+BONUS⭐ is a component of FAQ accordion build with `<details>` that I has try but not success 😉
 
 ```
 peer-checked:[&>span]
