@@ -77,6 +77,6 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Github - [Nutchapon](https://github.com/kodaicoder)
+- Github - [kodaicoder](https://github.com/kodaicoder)
 - Twitter - [@SolanianNut](https://twitter.com/SolanianNut)
 - Frontend Mentor - [@NutchaponMake](https://www.frontendmentor.io/profile/NutchaponMake)
