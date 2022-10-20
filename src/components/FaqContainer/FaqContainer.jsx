@@ -32,11 +32,11 @@ const FAQs_DATA = [
 
 export const FaqContainer = (props) => {
   return (
-    <div className="h-full flex flex-col items-start justify-start p-12">
+    <div className="h-full mt-20 flex flex-col items-start justify-center p-3 lg:p-12 lg:mt-0">
       <h1 className="w-full text-center lg:text-start text-[color:var(--desaturated-blue)] text-2xl font-[700]  mb-4">
         FAQ
       </h1>
-      <div className="p-2 overflow-y-scroll">
+      <div className="p-2 overflow-y-scroll max-h-[22rem]">
         {FAQs_DATA.map((faq) => (
           <Accordion
             key={faq.id}

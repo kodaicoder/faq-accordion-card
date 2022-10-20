@@ -18,18 +18,25 @@ export const FaqImage = (props) => {
           <img
             src={WomenDesktop}
             className="absolute -left-20 top-1/2 -translate-y-1/2 z-10"
+            alt="Women & Desktop Image"
           />
           <img
             src={PatternDesktop}
             className="absolute -top-10 -left-80 scale-[2]"
+            alt="Pattern background image"
           />
         </div>
         {/* image group mobile */}
         <div className="lg:hidden relative w-full h-full">
-          <img src={WomenMobile} className="absolute scale-[.7] -top-40" />
+          <img
+            src={WomenMobile}
+            className="absolute w-64 -top-28 left-1/2 -translate-x-1/2"
+            alt="Women & Desktop Image"
+          />
           <img
             src={PatternMobile}
             className="absolute left-1/2 -translate-x-1/2"
+            alt="Pattern background image"
           />
         </div>
       </div>

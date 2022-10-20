@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <Card>
-        <CardLayout customHeight="15%">
+        <CardLayout>
           <FaqImage />
         </CardLayout>
-        <CardLayout customHeight="85%">
+        <CardLayout>
           <FaqContainer />
         </CardLayout>
       </Card>
